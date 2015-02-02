@@ -1,0 +1,29 @@
+{
+  "name": "social-data",
+  "version": "1.0.0",
+  "main": "./lib/index",
+  "description": "Get social shares data for a url from the most popular social networks",
+  "dependencies": {
+    "request": "^2.52.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eiriklv/social-data.git"
+  },
+  "keywords": [
+    "social",
+    "shares",
+    "facebook",
+    "twitter"
+  ],
+  "bugs": {
+    "url": "https://github.com/eiriklv/object-transform/issues"
+  },
+  "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)",
+  "homepage": "https://github.com/eiriklv/social-data",
+  "license": "MIT"
+}
