@@ -1,6 +1,6 @@
 {
   "name": "social-data",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "./lib/index",
   "description": "Get social shares data for a url from the most popular social networks",
   "dependencies": {

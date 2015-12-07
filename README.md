@@ -31,32 +31,9 @@ socialData.facebook(url, function(err, result) {
 })
 ```
 
-### .twitter(url, callback)
+### .twitter(url, callback) (deprecated)
 
-Get social sharing data from Twitter
-
-__Arguments__
-
-* `url` - The URL you want data for.
-* `callback(err, result)` - Callback to be called with the resulting data or an error.
-
-__Example__
-
-```js
-var http = require('http');
-
-var socialData = require('social-data')({
-  agent: (new http.Agent()) // optional agent/pool
-});
-
-var url = 'http://www.vg.no/'
-
-socialData.twitter(url, function(err, result) {
-  if (!err) {
-    // social shares data from facebook as result
-  }
-})
-```
+__NOTE:__ Twitter no longer supplies this functionality (sadly..)
 
 ### .linkedin(url, callback)
 
