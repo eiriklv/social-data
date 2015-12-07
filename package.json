@@ -4,7 +4,7 @@
   "main": "./lib/index",
   "description": "Get social shares data for a url from the most popular social networks",
   "dependencies": {
-    "request": "^2.52.0"
+    "request": "^2.67.0"
   },
   "devDependencies": {},
   "scripts": {
